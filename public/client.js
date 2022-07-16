@@ -6,7 +6,7 @@ let name;
 do{
     name=prompt('Please enter your name');
 }while(!name)
-
+alert('Now you can chat')
 textarea.addEventListener('keyup',(e)=>{
     if(e.key=="Enter"){
         sendMessage(e.target.value);
